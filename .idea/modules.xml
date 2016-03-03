@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WOWCodeTest.iml" filepath="$PROJECT_DIR$/WOWCodeTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/codetestapp.iml" filepath="$PROJECT_DIR$/codetestapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wow-codetest-android.iml" filepath="$PROJECT_DIR$/wow-codetest-android.iml" />
     </modules>
   </component>
 </project>
-
