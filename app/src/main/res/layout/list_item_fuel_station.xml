@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <com.android.volley.toolbox.NetworkImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/text_label_margin"
+            android:text="@string/label_address"
+            android:id="@+id/text_Address_Label" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_Address_Label"
+            android:id="@+id/text_Address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/text_label_margin"
+            android:layout_below="@id/text_Address_Label"
+            android:layout_alignTop="@+id/text_Distance"
+            android:text="@string/label_distance"
+            android:id="@+id/text_Distance_Label" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_Distance_Label"
+            android:layout_below="@id/text_Address"
+            android:layout_alignLeft="@id/text_Address"
+            android:id="@+id/text_Distance" />
+    </RelativeLayout>
+
+
+</LinearLayout>

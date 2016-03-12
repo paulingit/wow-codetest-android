@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".FuelStationListActivity">
+    tools:context=".ui.activity.FuelStationListActivity">
     <item
         android:id="@+id/action_sortbybrand"
         android:title="@string/action_sortbybrand"

@@ -3,5 +3,12 @@
 
     <string name="app_name">WOWCodeTest</string>
     <string name="action_sortbybrand">Sort by Brand</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_address">Address</string>
+    <string name="regular_price">regular price :</string>
+    <string name="plus_price">plus price :</string>
+    <string name="premium_price">premium price :</string>
+    <string name="diesel_price">diesel price :</string>
+    <string name="error_message">Data not available</string>
 
 </resources>
