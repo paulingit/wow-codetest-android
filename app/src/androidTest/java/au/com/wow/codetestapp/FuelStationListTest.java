@@ -1,16 +1,12 @@
 package au.com.wow.codetestapp;
 
-import android.content.res.Resources;
 import android.test.InstrumentationTestCase;
-import android.util.Log;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class FuelStationListTest extends InstrumentationTestCase {
@@ -39,7 +35,7 @@ public class FuelStationListTest extends InstrumentationTestCase {
     }
 
     public void testZipValue() throws JSONException{
-        assertEquals(mJsonObject.getString("zip"),"10024");
+        assertEquals(mJsonObject.getString("zip"), "10024");
     }
 
     public void testFuelStationItems() throws JSONException {
