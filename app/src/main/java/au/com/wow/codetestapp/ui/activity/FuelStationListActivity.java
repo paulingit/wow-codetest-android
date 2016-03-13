@@ -17,8 +17,6 @@ import au.com.wow.codetestapp.ui.fragments.FuelStationListFragment;
  */
 public class FuelStationListActivity extends Activity implements FuelStationListFragment.OnFuelItemSelectedListener {
 
-    private static final String TAG_FRAGMENT = "FragmentTag";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +46,7 @@ public class FuelStationListActivity extends Activity implements FuelStationList
             fragment.setArguments(bundle);
         }
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container, fragment, TAG_FRAGMENT);
+        fragmentTransaction.replace(R.id.container, fragment, fragment.getClass().getName());
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
