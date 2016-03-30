@@ -5,7 +5,7 @@ This app is a simple Android Studio project which displays fuel station list of 
 The skeleton project made for the requirements as follows.
 
 * Implement codes to display fuel station list from the server and detail view as below
-* Support orientation changes on Activity without restarting network task (do not use configChanges in the AndroidManifest.xml)
+* Support orientation changes on Activity without restarting network task (configChanges not used in the AndroidManifest.xml)
 * Implement codes for refresh button, proper title in action bar, home up button, etc
 * Download images in an asynchronous way
 * Add more test cases for user codes (Use any open source library platform like Robolectric, Espresso, Mockito, etc)
